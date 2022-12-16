@@ -95,6 +95,7 @@ body {
 .articles{
     list-style: none;
     display:flex;
+
        
 }
 
@@ -208,26 +209,32 @@ body {
 }
 
 /*stylowanie flexem H03*/
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    outline: 1px dashed red;
+
+ul, h1, h2, h3, h4, p, figure {
+  margin: 0;
+  padding: 0;
 }
 
 /*nagłówek*/
 .site-nav {
     border-bottom: 1px solid #ececec;
     box-shadow: 0px 4px 4px 0px #00000040;
-    height: 80px;
-    left: 0px;
-    top: 5px;
+    padding: 24px 0 25px;
     border-radius: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    outline: 1px dashed red;
 }
 
 .flex-nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .flex-nav-child1 {
@@ -248,6 +255,10 @@ body {
     display: flex;
     list-style: none;
     gap:50px;
+}
+
+section{
+    padding: 94px 0;
 }
 
 .flex-hero{
