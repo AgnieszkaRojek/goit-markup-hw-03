@@ -66,7 +66,7 @@ body {
     background-color: var(--dark-background);
 }
 
-.order h1 {
+h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36 /*60px*/;
@@ -74,6 +74,9 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white);
+    height: 120px;
+    margin:106px 252px 30px;
+
 }
 
 .order button {
@@ -106,7 +109,8 @@ body {
     line-height: 1.14 /*16px*/;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--black);height: 16px;
+
 }
 
 .articles > li > p {
@@ -211,7 +215,7 @@ body {
 
 /*stylowanie flexem H03*/
 
-ul, h1, h2, h3, h4, p, figure {
+ul, h2, h3, h4, p, figure {
   margin: 0;
   padding: 0;
 }
@@ -225,6 +229,7 @@ ul, h1, h2, h3, h4, p, figure {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     
@@ -270,10 +275,6 @@ ul, h1, h2, h3, h4, p, figure {
     height:600px;
 }
 
-h1{
-    
-
-}
 
 .flex-3{
     list-style: none;
